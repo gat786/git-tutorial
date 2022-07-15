@@ -1,5 +1,9 @@
-def magic():
-    a = 10
-    b = 20
+from colorama import Fore
 
-    print(f"magic here {a % b}")
+
+def do_magic():
+    """ THIS right here describves what the function does """
+
+    print(Fore.BLUE + "BLUE STUFF")
+    print(Fore.RED + "RED STUFF")
+    print(Fore.GREEN + "RED STUFF")
